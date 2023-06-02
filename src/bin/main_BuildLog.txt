@@ -1,0 +1,18 @@
+Output dir: /Users/andrew/development/multiplexer/src/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/andrew/development/multiplexer/src/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  *$0002-$0021 zero page
+  $0801-$080c Basic
+  $080e-$080d Basic End
+  $0900-$0971 main
+
+Writing Vice symbol file: /Users/andrew/development/multiplexer/src/bin/main.vs
+Writing Symbol file: main.sym

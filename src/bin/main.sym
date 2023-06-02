@@ -1,0 +1,41 @@
+.label main=$900 {
+}
+.label tables=$90e {
+  .label intTable=$90e
+  .label colourTable=$912
+}
+.label setUp=$916 {
+  .label initHardware=$916 {
+  }
+}
+.label interrupts=$927 {
+  .label init=$927 {
+  }
+  .label rasterNOP=$952 {
+    .label saveX=$96f
+  }
+}
+.label zeroPage=$2 {
+  .label dTemp3=$12
+  .label dTemp2=$10
+  .label dTemp1=$e
+  .label dTemp0=$c
+  .label temp2=$4
+  .label dTemp7=$1a
+  .label temp3=$5
+  .label dTemp6=$18
+  .label temp0=$2
+  .label dTemp5=$16
+  .label temp1=$3
+  .label dTemp4=$14
+  .label temp6=$8
+  .label intIndex=$21
+  .label temp7=$9
+  .label temp4=$6
+  .label dTemp9=$1e
+  .label temp5=$7
+  .label dTemp8=$1c
+  .label rasterFlag=$20
+  .label temp8=$a
+  .label temp9=$b
+}

@@ -1,0 +1,154 @@
+Opening monitor command playback file: /Users/andrew/development/multiplexer/src/bin/main.vs
+ 
+*** VICE Version 3.7.1 ***
+ 
+Welcome to X64sc, the free portable C64 Emulator.
+ 
+Current VICE team members:
+Martin Pottendorfer, Marco van den Heuvel, Fabrizio Gennari, Groepaz, 
+Errol Smith, Ingo Korb, Olaf Seibert, Marcus Sutton, Kajtar Zsolt, AreaScout, 
+Bas Wassink, Michael C. Martin, Christopher Phillips, David Hogan, 
+Empathic Qubit, Roberto Muscedere, June Tate-Gans, Pablo Roldan.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+random seed was: 0x6479c7d3
+command line was: /Applications/vice/VICE.app/Contents/Resources/bin/X64sc -logfile /Users/andrew/development/multiplexer/src/bin/main_ViceLog.txt -moncommands /Users/andrew/development/multiplexer/src/bin/main.vs /Users/andrew/development/multiplexer/src/bin/main.prg
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/C64/kernal-901227-03.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/C64/basic-901226-01.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/C64/chargen-901225-01.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/mps803.bin'.
+Palette: Loading palette `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/mps803.vpl'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/nl10.bin'.
+Palette: Loading palette `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/1520.vpl'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1540-325302+3-01.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1541-325302-01+901229-05.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1541ii-251968-03.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1570-315090-01.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1571-310654-05.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1581-318045-02.bin'.
+DriveROM: Error - 2000 ROM image not found. Hardware-level 2000 emulation is not available.
+DriveROM: Error - 4000 ROM image not found. Hardware-level 4000 emulation is not available.
+DriveROM: Error - CMDHD ROM image not found. Hardware-level CMDHD emulation is not available.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos2031-901484-03+05.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos2040-901468-06+07.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos3040-901468-11-13.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos4040-901468-14-16.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1001-901887+8-01.bin'.
+Loading system file `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos9000-300516+7-revC.bin'.
+Drive: Finished loading ROM images.
+VIC-II: Initializing chip model "MOS8565" (63 cycles per line, 312 raster lines).
+using GTK3 backend: OpenGL
+chip_name: VICII
+ screen_size: 384 x 312
+ first/lastline: 0 x 0
+ gfx_size: 320 x 200
+ gfx_position: 32 x 51
+ first/last displayed line: 16 x 287
+ extra offscreen border left/right: 0 x 0
+ screen_display_wh: 0.000000 x 0.000000
+ canvas_physical_wh: 0 x 0
+ scalexy: 2 x 2
+ sizexy: 1 x 1
+ rmode: 1
+ aspect ratio: 0.936508
+ hstretch: 0
+ vstretch: 0
+ initializing with width, height: 704 x 507
+Loading vertex shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+Loading fragment shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/builtin.frag
+Loading vertex shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+Loading fragment shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/builtin-interlaced.frag
+Loading vertex shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+Loading fragment shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/bicubic.frag
+Loading vertex shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+Loading fragment shader: /Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/GLSL/bicubic-interlaced.frag
+Created render thread 0
+Render thread initialised
+Sound: Available sound devices: coreaudio dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
+GTK3MOUSE: Status changed: 0 (disabled)
+Loading keymap `/Applications/vice/VICE.app/Contents/Resources/bin/../share/vice/C64/gtk3_sym.vkm'.
+HOTKEYS: Hotkeys: Initializing.
+HOTKEYS: Hotkeys: Parsing C64 hotkeys file:
+HOTKEYS: Hotkeys: OK.
+AUTOSTART: Autodetecting image type of `/Users/andrew/development/multiplexer/src/bin/main.prg'.
+Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 51.
+Filesystem Image: Unknown disk image `/Users/andrew/development/multiplexer/src/bin/main.prg'.
+Tape: Error - Cannot open file `/Users/andrew/development/multiplexer/src/bin/main.prg'
+Error - no CRT header found.
+CART: '/Users/andrew/development/multiplexer/src/bin/main.prg' is not a valid CRT file.
+AUTOSTART: Loading PRG file `/Users/andrew/development/multiplexer/src/bin/main.prg' with autostart disk image.
+AUTOSTART: Resetting drive 8
+AUTOSTART: Resetting the machine to autostart 'MAIN'
+VIC-II: VSP Bug: safe channels are: 157. Emulation of memory corruption is disabled.
+AUTOSTART: Turning Warp mode on.
+AUTOSTART: `/Users/andrew/development/multiplexer/src/bin/main.prg' recognized as program/p00 file.
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+Increasing trap_func array size to 1 with 1 to run
+Monitor playback command: al C:80b .upstartEnd
+Unit 8: RESET.
+Monitor playback command: al C:900 .main
+Monitor playback command: al C:4 .temp2
+Monitor playback command: al C:5 .temp3
+Monitor playback command: al C:916 .initHardware
+Monitor playback command: al C:2 .temp0
+Monitor playback command: al C:3 .temp1
+Monitor playback command: al C:21 .intIndex
+Monitor playback command: al C:1e .dTemp9
+Monitor playback command: al C:90e .tables
+Monitor playback command: al C:1c .dTemp8
+Monitor playback command: al C:20 .rasterFlag
+Monitor playback command: al C:90e .intTable
+Monitor playback command: al C:916 .setUp
+Monitor playback command: al C:927 .interrupts
+Monitor playback command: al C:927 .init
+Monitor playback command: al C:12 .dTemp3
+Monitor playback command: al C:10 .dTemp2
+Monitor playback command: al C:e .dTemp1
+Monitor playback command: al C:c .dTemp0
+Monitor playback command: al C:1a .dTemp7
+Monitor playback command: al C:18 .dTemp6
+Monitor playback command: al C:16 .dTemp5
+Monitor playback command: al C:14 .dTemp4
+Monitor playback command: al C:8 .temp6
+Monitor playback command: al C:9 .temp7
+Monitor playback command: al C:6 .temp4
+Monitor playback command: al C:7 .temp5
+Monitor playback command: al C:a .temp8
+Monitor playback command: al C:b .temp9
+Monitor playback command: al C:2 .zeroPage
+Monitor playback command: al C:96f .saveX
+Monitor playback command: al C:912 .colourTable
+Monitor playback command: al C:952 .rasterNOP
+Closed monitor command playback file: /Users/andrew/development/multiplexer/src/bin/main.vs
+sound (coreaudio_init): Found output audio device: PL3461WQ
+sound (coreaudio_init): Found audio device with no outputs: Willowpants Microphone
+sound (coreaudio_init): Found audio device with no outputs: MacBook Pro Microphone
+sound (coreaudio_init): Found output audio device: MacBook Pro Speakers (Default)
+sound (coreaudio_init): Found output audio device: Microsoft Teams Audio
+sound (coreaudio_init): Using output audio device: MacBook Pro Speakers
+sound (coreaudio_init): audio frame buffer size in samples min: 15.000000 max: 4096.000000 fragment size: 32, chosen: 32
+sound (coreaudio_start): Started
+Sound: Opened device `coreaudio', speed 48000Hz, fragment size 0.67ms, buffer size 20.00ms
+Copybuffer increase to 64 bytes
+reSID: MOS8580, filter on, sampling rate 48000Hz - resampling, pass to 21600Hz
+Sync reset
+AUTOSTART: Loading program 'MAIN'
+AUTOSTART: Entered ROM at $e5cd
+AUTOSTART: Searching for ...
+AUTOSTART: Loading
+AUTOSTART: Entered ROM at $ea21
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off.
+AUTOSTART: Starting program.
+AUTOSTART: Restoring FileSystemDevice8 to 1.
+AUTOSTART: Restoring FSDevice8ConvertP00 to 1.
+AUTOSTART: Restoring FSDeviceLongNames to 0.
+AUTOSTART: Done.
+Sync reset
+Warning - Sync is 1001.525 ms behind
+Sync reset
